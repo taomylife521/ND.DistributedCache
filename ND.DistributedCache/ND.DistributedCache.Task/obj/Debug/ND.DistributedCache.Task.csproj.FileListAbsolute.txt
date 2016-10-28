@@ -1,0 +1,9 @@
+D:\DistributedCache\ND.DistributedCache.Task\bin\Debug\ND.DistributedCache.Task.dll
+D:\DistributedCache\ND.DistributedCache.Task\bin\Debug\ND.DistributedCache.Task.pdb
+D:\DistributedCache\ND.DistributedCache.Task\bin\Debug\TaskPlatform.TaskInterface.dll
+D:\DistributedCache\ND.DistributedCache.Task\obj\Debug\ND.DistributedCache.Task.dll
+D:\DistributedCache\ND.DistributedCache.Task\obj\Debug\ND.DistributedCache.Task.pdb
+D:\DistributedCache\ND.DistributedCache.Task\bin\Debug\ND.DistributedCache.Task.dll.config
+D:\DistributedCache\ND.DistributedCache.Task\bin\Debug\ND.PublicLib.dll
+D:\DistributedCache\ND.DistributedCache.Task\bin\Debug\Newtonsoft.Json.dll
+D:\DistributedCache\ND.DistributedCache.Task\obj\Debug\ND.DistributedCache.Task.csprojResolveAssemblyReference.cache

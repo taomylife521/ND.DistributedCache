@@ -1,0 +1,4 @@
+2016/4/20 15:52:29:开始写入值:starting:key:1,cacheId:A.a31686c3-15b2-4b9c-94b5-a3474c973a69,value:"2",expireDate:2016/4/20 16:02:28
+2016/4/20 15:52:29:写入完成end:key:1,cacheId:A.a31686c3-15b2-4b9c-94b5-a3474c973a69,result:True,
+2016/4/20 15:52:29:开始获取value:starting:key:1,cacheId:A.a31686c3-15b2-4b9c-94b5-a3474c973a69
+2016/4/20 15:52:29:获取value成功:end-->:key:1,cacheId:A.a31686c3-15b2-4b9c-94b5-a3474c973a69,value:"2"

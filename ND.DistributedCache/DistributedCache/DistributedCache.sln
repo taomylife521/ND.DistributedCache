@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCache", "DistributedCache\DistributedCache.csproj", "{F5329EA2-A248-4C03-8F23-68243874ECC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ND.DistributedCache.Core", "..\ND.DistributedCache.Core\ND.DistributedCache.Core.csproj", "{B6F37B55-1955-4BB8-8DAD-EF9695B03B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCacheWinform", "..\DistributedCacheWinform\DistributedCacheWinform.csproj", "{082249F6-CCF3-454B-9A67-7253E0B4C2A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ND.DistributedCache.Test", "ND.DistributedCache.Test", "{5265D61B-DCE3-429A-B012-2940BA1B0BAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5329EA2-A248-4C03-8F23-68243874ECC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5329EA2-A248-4C03-8F23-68243874ECC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5329EA2-A248-4C03-8F23-68243874ECC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5329EA2-A248-4C03-8F23-68243874ECC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F37B55-1955-4BB8-8DAD-EF9695B03B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F37B55-1955-4BB8-8DAD-EF9695B03B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F37B55-1955-4BB8-8DAD-EF9695B03B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F37B55-1955-4BB8-8DAD-EF9695B03B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082249F6-CCF3-454B-9A67-7253E0B4C2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082249F6-CCF3-454B-9A67-7253E0B4C2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082249F6-CCF3-454B-9A67-7253E0B4C2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082249F6-CCF3-454B-9A67-7253E0B4C2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5329EA2-A248-4C03-8F23-68243874ECC7} = {5265D61B-DCE3-429A-B012-2940BA1B0BAF}
+		{082249F6-CCF3-454B-9A67-7253E0B4C2A5} = {5265D61B-DCE3-429A-B012-2940BA1B0BAF}
+	EndGlobalSection
+EndGlobal

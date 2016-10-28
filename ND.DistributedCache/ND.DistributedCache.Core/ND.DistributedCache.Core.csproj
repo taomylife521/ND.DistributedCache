@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6F37B55-1955-4BB8-8DAD-EF9695B03B4E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ND.DistributedCache.Core</RootNamespace>
+    <AssemblyName>ND.DistributedCache.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MongoDB.Bson, Version=1.7.0.4714, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=1.7.0.4714, Culture=neutral, PublicKeyToken=f686731cfb9cc103, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CacheBase.cs" />
+    <Compile Include="CacheId\CacheIdGeneratorManger.cs" />
+    <Compile Include="CacheKeyMap\CacheKeyMapBase.cs" />
+    <Compile Include="CacheKeyMap\CacheKeyMapCollection.cs" />
+    <Compile Include="CacheKeyMap\CacheKeyMapDescriptor.cs" />
+    <Compile Include="CacheKeyMap\CacheKeyMapManger.cs" />
+    <Compile Include="CacheKeyMap\DefaultCacheKeyMap.cs" />
+    <Compile Include="CacheKeyMap\ICacheKeyMap.cs" />
+    <Compile Include="CacheKeyMap\MongoDBCacheKeyMap.cs" />
+    <Compile Include="CacheManger.cs" />
+    <Compile Include="CacheStatus.cs" />
+    <Compile Include="Configuration\CacheConfigurationBase.cs" />
+    <Compile Include="Configuration\ICacheConfiguration.cs" />
+    <Compile Include="Configuration\MongoDBCacheConfiguration.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="CacheId\DefaultCacheIdGenerator.cs" />
+    <Compile Include="Entity\CacheEntityBase.cs" />
+    <Compile Include="Entity\MongoDBCacheEntity.cs" />
+    <Compile Include="DistributedCacheHelper.cs" />
+    <Compile Include="Helper\ValidateHelper.cs" />
+    <Compile Include="ICache.cs" />
+    <Compile Include="CacheId\ICacheIdGenerator.cs" />
+    <Compile Include="MongoDBCache.cs" />
+    <Compile Include="MongoDBCachePartitionResolver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lib\MongoDB.Bson.dll" />
+    <Content Include="Lib\MongoDB.Driver.dll" />
+    <Content Include="Lib\Newtonsoft.Json.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exception\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

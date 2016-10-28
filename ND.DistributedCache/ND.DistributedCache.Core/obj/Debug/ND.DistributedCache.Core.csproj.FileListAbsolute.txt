@@ -1,0 +1,15 @@
+D:\DistributedCache\ND.DistributedCache.Core\bin\Debug\ND.DistributedCache.Core.dll
+D:\DistributedCache\ND.DistributedCache.Core\bin\Debug\ND.DistributedCache.Core.pdb
+D:\DistributedCache\ND.DistributedCache.Core\bin\Debug\MongoDB.Bson.dll
+D:\DistributedCache\ND.DistributedCache.Core\bin\Debug\MongoDB.Driver.dll
+D:\DistributedCache\ND.DistributedCache.Core\bin\Debug\Newtonsoft.Json.dll
+D:\DistributedCache\ND.DistributedCache.Core\obj\Debug\ND.DistributedCache.Core.dll
+D:\DistributedCache\ND.DistributedCache.Core\obj\Debug\ND.DistributedCache.Core.pdb
+D:\DistributedCache\ND.DistributedCache.Core\obj\Debug\ND.DistributedCache.Core.csprojResolveAssemblyReference.cache
+D:\ND.Application\ND.DistributedCache\ND.DistributedCache.Core\bin\Debug\ND.DistributedCache.Core.dll
+D:\ND.Application\ND.DistributedCache\ND.DistributedCache.Core\bin\Debug\ND.DistributedCache.Core.pdb
+D:\ND.Application\ND.DistributedCache\ND.DistributedCache.Core\bin\Debug\MongoDB.Bson.dll
+D:\ND.Application\ND.DistributedCache\ND.DistributedCache.Core\bin\Debug\MongoDB.Driver.dll
+D:\ND.Application\ND.DistributedCache\ND.DistributedCache.Core\bin\Debug\Newtonsoft.Json.dll
+D:\ND.Application\ND.DistributedCache\ND.DistributedCache.Core\obj\Debug\ND.DistributedCache.Core.dll
+D:\ND.Application\ND.DistributedCache\ND.DistributedCache.Core\obj\Debug\ND.DistributedCache.Core.pdb
